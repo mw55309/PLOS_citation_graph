@@ -42,8 +42,6 @@ for (index in indices) {
 }
 
 # try and recreate PLOS plot
-# need a vector
-vec <- as.vector(t(results))
 
 # get some colours
 cols <- colors()[c(30, 95, 601, 450, 26, 109, 61, 81, 32, 404, 148, 505, 4)]
