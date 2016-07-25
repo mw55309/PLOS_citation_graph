@@ -44,7 +44,7 @@ for (index in indices) {
 }
 
 # write data
-write.csv("results_pearson.csv", row.names=FALSE)
+write.csv(results, "results_pearson.csv", row.names=FALSE)
 
 # try and recreate PLOS plot
 
@@ -134,7 +134,7 @@ for (index in indices) {
 
 
 # write data
-write.csv("results_spearman.csv", row.names=FALSE)
+write.csv(results, "results_spearman.csv", row.names=FALSE)
 
 # try and recreate PLOS plot
 
